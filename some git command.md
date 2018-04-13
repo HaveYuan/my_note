@@ -23,3 +23,11 @@ git merge命令用于合并指定分支到当前分支
 
 ### 7.查看分支
 * `git branch`
+
+### 8.当第一次git pull失败时使用以下命令
+* `git pull --allow-unrelated-histories`
+* `git push --force origin master`
+
+### 9.修改git用户名和密码
+* `$ git config --global user.name "username"`
+* `$ git config --global user.email "email"`
