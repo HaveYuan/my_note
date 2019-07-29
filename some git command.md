@@ -34,7 +34,7 @@ git merge命令用于合并指定分支到当前分支
 
 ### 10.使用git pull origin报以下错时
 >“You asked to pull from the remote 'origin' ,but did not specify a branch.Because this is not the default configured remote for you current branch.”
-使用以下命令
+#### 使用以下命令
 ```
 git branch  --set-upstream master origin/master
 ```
