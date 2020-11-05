@@ -38,3 +38,10 @@ git merge命令用于合并指定分支到当前分支
 ```
 git branch  --set-upstream master origin/master
 ```
+
+### 11.使用git reflog查看所有提交纪录，再用git reset恢复
+```
+git reflog
+
+git reset --hard xxx
+```
